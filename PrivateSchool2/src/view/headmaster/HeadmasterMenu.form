@@ -1,0 +1,2015 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="headmasterTabs" min="-2" pref="1349" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="headmasterTabs" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="headmasterTabs">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="headmasterCourseTab">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Courses" toolTip="&lt;html&gt;CRUD on Courses&lt;br&gt;List of existing courses along with edit buttons + a new course button&lt;/html&gt;">
+                <Property name="tabTitle" type="java.lang.String" value="Courses"/>
+                <Property name="tabToolTip" type="java.lang.String" value="&lt;html&gt;CRUD on Courses&lt;br&gt;List of existing courses along with edit buttons + a new course button&lt;/html&gt;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="headmasterCourseTabNew" max="32767" attributes="0"/>
+                          <Component id="headmasterCourseTabScrollPane" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="headmasterCourseTabScrollPane" min="-2" pref="253" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="headmasterCourseTabNew" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="headmasterCourseTabScrollPane">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="headmasterCourseTabScrollNRLabel">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="No courses found. Add some"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="headmasterCourseTabNew">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="headmasterCourseTabNewStreamLabel" linkSize="2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterCourseTabNewTitleLabel" linkSize="2" min="-2" pref="35" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="headmasterCourseTabNewStreamField" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterCourseTabNewTitleField" min="-2" pref="255" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="headmasterCourseTabNewSubmit" min="-2" pref="73" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="headmasterCourseTabNewLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="headmasterCourseTabNewTypeLabel" linkSize="2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="headmasterCourseTabNewTypeField" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jSeparator1" pref="1" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="headmasterCourseTabEx" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="headmasterCourseTabNewLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="headmasterCourseTabNewSubmit" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="headmasterCourseTabNewTitleField" linkSize="1" max="32767" attributes="0"/>
+                              <Component id="headmasterCourseTabNewTitleLabel" linkSize="1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="headmasterCourseTabNewStreamLabel" linkSize="1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="headmasterCourseTabNewStreamField" linkSize="1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="headmasterCourseTabNewTypeField" linkSize="1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="headmasterCourseTabNewTypeLabel" linkSize="1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jSeparator1" alignment="1" max="32767" attributes="0"/>
+                      <Component id="headmasterCourseTabEx" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="headmasterCourseTabNewLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="New Course"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterCourseTabNewTitleLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Title :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="headmasterCourseTabNewTitleField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterCourseTabNewStreamLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Stream :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="headmasterCourseTabNewStreamField">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="new DefaultComboBoxModel(model.Utils.CourseStream.toStringArray())" type="code"/>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterCourseTabNewTypeLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Type :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="headmasterCourseTabNewTypeField">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="new DefaultComboBoxModel(model.Utils.CourseType.toStringArray())" type="code"/>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JButton" name="headmasterCourseTabNewSubmit">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Create"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterCourseTabNewSubmitActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator1">
+                  <Properties>
+                    <Property name="orientation" type="int" value="1"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JLayeredPane" name="headmasterCourseTabEx">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="headmasterCourseTabExPanel1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                              <Component id="headmasterCourseTabExPanel2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="headmasterCourseTabExPanel1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                              <Component id="headmasterCourseTabExPanel2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="headmasterCourseTabExPanel1">
+                      <Properties>
+                        <Property name="opaque" type="boolean" value="false"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JLayeredPane.layer" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="headmasterCourseTabExAssignmentsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="headmasterCourseTabExStreamLabel" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="headmasterCourseTabExTypeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="headmasterCourseTabExTypeField" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="headmasterCourseTabExStreamField" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="headmasterCourseTabExTitleLabel" min="-2" pref="41" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="headmasterCourseTabExTitleField" min="-2" pref="168" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                      <Component id="headmasterCourseTabExDelete" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="headmasterCourseTabExUpdate" alignment="0" pref="73" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Component id="headmasterCourseTabExLabel" min="-2" pref="96" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                                          <Component id="headmasterCourseTabExIDLabel" min="-2" pref="43" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                          <Component id="headmasterCourseTabExSchedulesPanel" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="headmasterCourseTabExTrainersAvScroll" linkSize="41" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="headmasterCourseTabExTrainersAvAdd" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="headmasterCourseTabExTrainersJoinedRemove" min="-2" pref="223" max="-2" attributes="0"/>
+                                                      <Component id="headmasterCourseTabExTrainersJoinedScroll" linkSize="41" min="-2" pref="223" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="headmasterCourseTabExTrainersLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="headmasterCourseTabExStudentsLabel" min="-2" max="-2" attributes="0"/>
+                                              <Component id="headmasterCourseTabExStudentsAvScroll" linkSize="41" pref="0" max="32767" attributes="0"/>
+                                              <Component id="headmasterCourseTabExStudentsAvAdd" alignment="0" min="-2" pref="223" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="headmasterCourseTabExStudentsJoinedScroll" linkSize="41" pref="0" max="32767" attributes="0"/>
+                                              <Component id="headmasterCourseTabExStudentsJoinedRemove" min="-2" pref="223" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="headmasterCourseTabExAssignmentsJoinedScroll" linkSize="41" alignment="0" min="-2" pref="223" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="54" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="headmasterCourseTabExLabel" linkSize="20" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="headmasterCourseTabExUpdate" linkSize="20" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="headmasterCourseTabExDelete" max="32767" attributes="0"/>
+                                              <Component id="headmasterCourseTabExIDLabel" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="headmasterCourseTabExTitleField" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="headmasterCourseTabExTitleLabel" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="headmasterCourseTabExStreamLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="headmasterCourseTabExStreamField" alignment="3" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="headmasterCourseTabExTypeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="headmasterCourseTabExTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                          <Component id="headmasterCourseTabExSchedulesPanel" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="headmasterCourseTabExStudentsLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="headmasterCourseTabExStudentsAvScroll" linkSize="42" pref="0" max="32767" attributes="0"/>
+                                              <Component id="headmasterCourseTabExStudentsJoinedScroll" linkSize="42" min="-2" pref="106" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="headmasterCourseTabExStudentsAvAdd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="headmasterCourseTabExStudentsJoinedRemove" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="headmasterCourseTabExTrainersLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="116" pref="116" max="-2" attributes="0"/>
+                                                  <Component id="headmasterCourseTabExTrainersJoinedRemove" linkSize="33" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                                  <Component id="headmasterCourseTabExTrainersJoinedScroll" linkSize="42" alignment="0" pref="107" max="32767" attributes="0"/>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <EmptySpace pref="1" max="-2" attributes="0"/>
+                                                      <Component id="headmasterCourseTabExTrainersAvScroll" linkSize="42" pref="0" max="32767" attributes="0"/>
+                                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                      <Component id="headmasterCourseTabExTrainersAvAdd" linkSize="33" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="headmasterCourseTabExAssignmentsLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="headmasterCourseTabExAssignmentsJoinedScroll" linkSize="42" pref="109" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JButton" name="headmasterCourseTabExUpdate">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Update"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterCourseTabExUpdateActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="headmasterCourseTabExDelete">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Delete"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterCourseTabExDeleteActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterCourseTabExLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Course id :"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="18" style="0"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterCourseTabExIDLabel">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="18" style="0"/>
+                            </Property>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="33" green="0" red="ff" type="rgb"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="headmasterCourseTabExTitleField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterCourseTabExTitleLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Title :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterCourseTabExStreamLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Stream :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JComboBox" name="headmasterCourseTabExStreamField">
+                          <Properties>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                              <Connection code="new DefaultComboBoxModel(model.Utils.CourseStream.toStringArray())" type="code"/>
+                            </Property>
+                          </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JComboBox" name="headmasterCourseTabExTypeField">
+                          <Properties>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                              <Connection code="new DefaultComboBoxModel(model.Utils.CourseType.toStringArray())" type="code"/>
+                            </Property>
+                          </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterCourseTabExTypeLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Type :"/>
+                          </Properties>
+                        </Component>
+                        <Container class="javax.swing.JScrollPane" name="headmasterCourseTabExStudentsAvScroll">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JList" name="headmasterCourseTabExStudentsAvList">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                                  <StringArray count="0"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Tahoma" size="10" style="0"/>
+                                </Property>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JScrollPane" name="headmasterCourseTabExStudentsJoinedScroll">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JList" name="headmasterCourseTabExStudentsJoinedList">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                                  <StringArray count="0"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Tahoma" size="10" style="0"/>
+                                </Property>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Component class="javax.swing.JLabel" name="headmasterCourseTabExStudentsLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Students"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="headmasterCourseTabExStudentsAvAdd">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="add &gt;"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterCourseTabExStudentsAvAddActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="headmasterCourseTabExStudentsJoinedRemove">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&lt; remove"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterCourseTabExStudentsJoinedRemoveActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Container class="javax.swing.JScrollPane" name="headmasterCourseTabExTrainersJoinedScroll">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JList" name="headmasterCourseTabExTrainersJoinedList">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                                  <StringArray count="0"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Tahoma" size="10" style="0"/>
+                                </Property>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Component class="javax.swing.JLabel" name="headmasterCourseTabExTrainersLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Trainers"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="headmasterCourseTabExTrainersAvAdd">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="add &gt;"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterCourseTabExTrainersAvAddActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Container class="javax.swing.JScrollPane" name="headmasterCourseTabExTrainersAvScroll">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JList" name="headmasterCourseTabExTrainersAvList">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                                  <StringArray count="0"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Tahoma" size="10" style="0"/>
+                                </Property>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Component class="javax.swing.JButton" name="headmasterCourseTabExTrainersJoinedRemove">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&lt; remove"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterCourseTabExTrainersJoinedRemoveActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Container class="javax.swing.JScrollPane" name="headmasterCourseTabExAssignmentsJoinedScroll">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JList" name="headmasterCourseTabExAssignmentsJoinedList">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                                  <StringArray count="0"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Tahoma" size="10" style="0"/>
+                                </Property>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Component class="javax.swing.JLabel" name="headmasterCourseTabExAssignmentsLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Assignments"/>
+                          </Properties>
+                        </Component>
+                        <Container class="javax.swing.JPanel" name="headmasterCourseTabExSchedulesPanel">
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="headmasterCourseTabExSchedulesLabelStart" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="headmasterCourseTabExSchedulesLabelEnd" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="headmasterCourseTabExSchedulesEnd" max="32767" attributes="0"/>
+                                              <Component id="headmasterCourseTabExSchedulesStart" max="32767" attributes="0"/>
+                                              <Component id="headmasterCourseTabExSchedulesNewAdd" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="headmasterCourseTabExSchedulesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="headmasterCourseTabExSchedulesJoinedRemove" max="32767" attributes="0"/>
+                                          <Component id="headmasterCourseTabExSchedulesJoinedScroll" pref="235" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="headmasterCourseTabExSchedulesLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="headmasterCourseTabExSchedulesStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="headmasterCourseTabExSchedulesLabelStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="headmasterCourseTabExSchedulesEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="headmasterCourseTabExSchedulesLabelEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
+                                              <Component id="headmasterCourseTabExSchedulesJoinedScroll" min="-2" pref="73" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="headmasterCourseTabExSchedulesJoinedRemove" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="headmasterCourseTabExSchedulesNewAdd" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="com.github.lgooddatepicker.components.DateTimePicker" name="headmasterCourseTabExSchedulesStart">
+                            </Component>
+                            <Component class="com.github.lgooddatepicker.components.DateTimePicker" name="headmasterCourseTabExSchedulesEnd">
+                            </Component>
+                            <Component class="javax.swing.JButton" name="headmasterCourseTabExSchedulesJoinedRemove">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="&lt; remove"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterCourseTabExSchedulesJoinedRemoveActionPerformed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="headmasterCourseTabExSchedulesNewAdd">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="add &gt;"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterCourseTabExSchedulesNewAddActionPerformed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="headmasterCourseTabExSchedulesLabel">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Schedule"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="headmasterCourseTabExSchedulesLabelStart">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="start"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="headmasterCourseTabExSchedulesLabelEnd">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="end"/>
+                              </Properties>
+                            </Component>
+                            <Container class="javax.swing.JScrollPane" name="headmasterCourseTabExSchedulesJoinedScroll">
+                              <AuxValues>
+                                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                              </AuxValues>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                              <SubComponents>
+                                <Component class="javax.swing.JList" name="headmasterCourseTabExSchedulesJoinedList">
+                                  <Properties>
+                                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                                      <StringArray count="0"/>
+                                    </Property>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Tahoma" size="10" style="0"/>
+                                    </Property>
+                                  </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                                  </AuxValues>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="headmasterCourseTabExPanel2">
+                      <AuxValues>
+                        <AuxValue name="JLayeredPane.layer" type="java.lang.Integer" value="2"/>
+                      </AuxValues>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="973" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="475" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="headmasterTrainerTab">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Trainers" toolTip="&lt;html&gt;CRUD on trainers&lt;br&gt;List of trainers with edit buttons + new Trainer button&lt;/html&gt;">
+                <Property name="tabTitle" type="java.lang.String" value="Trainers"/>
+                <Property name="tabToolTip" type="java.lang.String" value="&lt;html&gt;CRUD on trainers&lt;br&gt;List of trainers with edit buttons + new Trainer button&lt;/html&gt;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="headmasterTrainerTabNew" alignment="1" max="32767" attributes="0"/>
+                          <Component id="headmasterTrainerTabScrollPane" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="headmasterTrainerTabScrollPane" min="-2" pref="351" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="headmasterTrainerTabNew" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="headmasterTrainerTabScrollPane">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="headmasterTrainerTabScrollNRLabel">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="No trainers found. Add some"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="headmasterTrainerTabNew">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="headmasterTrainerTabNewLNLabel" linkSize="10" pref="72" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="headmasterTrainerTabNewLNField" linkSize="8" pref="157" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="headmasterTrainerTabNewFNLabel" linkSize="10" pref="85" max="32767" attributes="0"/>
+                                      <Component id="headmasterTrainerTabNewSubmit" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="headmasterTrainerTabNewFNField" linkSize="8" pref="158" max="32767" attributes="0"/>
+                                      <Component id="headmasterTrainerTabNewLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="headmasterTrainerTabNewPWLabel" linkSize="10" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="headmasterTrainerTabNewPWField" linkSize="8" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="headmasterTrainerTabNewUNLabel" linkSize="10" pref="85" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="headmasterTrainerTabNewUNField" linkSize="8" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jSeparator2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="headmasterTrainerTabEx" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="headmasterTrainerTabNewSubmit" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterTrainerTabNewLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="headmasterTrainerTabNewFNField" linkSize="9" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="headmasterTrainerTabNewFNLabel" linkSize="7" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterTrainerTabNewLNLabel" linkSize="7" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="headmasterTrainerTabNewLNField" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterTrainerTabNewUNLabel" linkSize="7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterTrainerTabNewUNField" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterTrainerTabNewPWLabel" linkSize="7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterTrainerTabNewPWField" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jSeparator2" max="32767" attributes="0"/>
+                                      <Component id="headmasterTrainerTabEx" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="headmasterTrainerTabNewLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="New Trainer"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterTrainerTabNewFNLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="First Name :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="headmasterTrainerTabNewFNField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterTrainerTabNewLNLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Last Name :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="headmasterTrainerTabNewLNField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterTrainerTabNewUNLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Username :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="headmasterTrainerTabNewUNField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterTrainerTabNewPWLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Password :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JPasswordField" name="headmasterTrainerTabNewPWField">
+                </Component>
+                <Component class="javax.swing.JButton" name="headmasterTrainerTabNewSubmit">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Add"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterTrainerTabNewSubmitActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator2">
+                  <Properties>
+                    <Property name="orientation" type="int" value="1"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JLayeredPane" name="headmasterTrainerTabEx">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="headmasterTrainerTabExPanel1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                              <Component id="headmasterTrainerTabExPanel2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="headmasterTrainerTabExPanel1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                              <Component id="headmasterTrainerTabExPanel2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="headmasterTrainerTabExPanel1">
+                      <Properties>
+                        <Property name="opaque" type="boolean" value="false"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JLayeredPane.layer" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="headmasterTrainerTabExDelete" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExPWLabel" max="32767" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExUNLabel" max="32767" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExLNLabel" max="32767" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExUpdate" alignment="0" pref="72" max="32767" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExFNLabel" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="headmasterTrainerTabExUNField" alignment="0" pref="192" max="32767" attributes="0"/>
+                                          <Component id="headmasterTrainerTabExFNField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="headmasterTrainerTabExLNField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="headmasterTrainerTabExPWField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="headmasterTrainerTabExLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExIDLabel" min="-2" pref="87" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="737" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="headmasterTrainerTabExUpdate" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="headmasterTrainerTabExDelete" max="32767" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExIDLabel" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterTrainerTabExFNLabel" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExFNField" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterTrainerTabExLNLabel" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExLNField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterTrainerTabExUNLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExUNField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterTrainerTabExPWLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterTrainerTabExPWField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JButton" name="headmasterTrainerTabExUpdate">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Update"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterTrainerTabExUpdateActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="headmasterTrainerTabExDelete">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Delete"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterTrainerTabExDeleteActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterTrainerTabExLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Trainer id :"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="18" style="0"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterTrainerTabExIDLabel">
+                          <Properties>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="18" style="0"/>
+                            </Property>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="ff" type="rgb"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterTrainerTabExFNLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="First Name :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="headmasterTrainerTabExFNField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterTrainerTabExLNLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Last Name :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="headmasterTrainerTabExLNField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterTrainerTabExUNLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Username :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="headmasterTrainerTabExUNField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterTrainerTabExPWLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Password :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="headmasterTrainerTabExPWField">
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="headmasterTrainerTabExPanel2">
+                      <AuxValues>
+                        <AuxValue name="JLayeredPane.layer" type="java.lang.Integer" value="2"/>
+                      </AuxValues>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="1011" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="398" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="headmasterStudentTab">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Students" toolTip="&lt;html&gt;CRUD on students&lt;br&gt;List of students with edit buttons + new Student button&lt;/html&gt;">
+                <Property name="tabTitle" type="java.lang.String" value="Students"/>
+                <Property name="tabToolTip" type="java.lang.String" value="&lt;html&gt;CRUD on students&lt;br&gt;List of students with edit buttons + new Student button&lt;/html&gt;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="headmasterStudentTabNew" alignment="1" max="32767" attributes="0"/>
+                          <Component id="headmasterStudentTabScrollPane" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="headmasterStudentTabScrollPane" min="-2" pref="351" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="headmasterStudentTabNew" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="headmasterStudentTabScrollPane">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="headmasterStudentTabScrollNRLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="0"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="No students found. Add some"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="headmasterStudentTabNew">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="headmasterStudentTabNewTFLabel" linkSize="13" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="headmasterStudentTabNewTFField" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="headmasterStudentTabNewBDLabel" linkSize="13" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="headmasterStudentTabNewBDField" min="-2" pref="175" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="headmasterStudentTabNewPWLabel" linkSize="13" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="headmasterStudentTabNewPWField" linkSize="14" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="headmasterStudentTabNewSubmit" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="headmasterStudentTabNewFNLabel" linkSize="13" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabNewUNLabel" linkSize="13" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="headmasterStudentTabNewFNField" linkSize="14" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabNewUNField" linkSize="14" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabNewLabel" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="headmasterStudentTabNewLNLabel" linkSize="13" pref="72" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="headmasterStudentTabNewLNField" linkSize="14" pref="157" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jSeparator3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="headmasterStudentTabEx" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="headmasterStudentTabNewSubmit" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabNewLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="headmasterStudentTabNewFNField" linkSize="15" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="headmasterStudentTabNewFNLabel" linkSize="12" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterStudentTabNewLNLabel" linkSize="12" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabNewLNField" linkSize="15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterStudentTabNewUNLabel" linkSize="12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabNewUNField" linkSize="15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterStudentTabNewPWLabel" linkSize="12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabNewPWField" linkSize="15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterStudentTabNewBDLabel" linkSize="12" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabNewBDField" linkSize="15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterStudentTabNewTFLabel" linkSize="12" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabNewTFField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jSeparator3" max="32767" attributes="0"/>
+                                      <Component id="headmasterStudentTabEx" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="headmasterStudentTabNewLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="New Student"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterStudentTabNewFNLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="First Name :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="headmasterStudentTabNewFNField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterStudentTabNewLNLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Last Name :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="headmasterStudentTabNewLNField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterStudentTabNewUNLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Username :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="headmasterStudentTabNewUNField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterStudentTabNewPWLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Password :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JPasswordField" name="headmasterStudentTabNewPWField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterStudentTabNewBDLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Birth Date :"/>
+                  </Properties>
+                </Component>
+                <Component class="com.github.lgooddatepicker.components.DatePicker" name="headmasterStudentTabNewBDField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterStudentTabNewTFLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tuition Fees :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="headmasterStudentTabNewTFField">
+                </Component>
+                <Component class="javax.swing.JButton" name="headmasterStudentTabNewSubmit">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Add"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterStudentTabNewSubmitActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator3">
+                  <Properties>
+                    <Property name="orientation" type="int" value="1"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JLayeredPane" name="headmasterStudentTabEx">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="headmasterStudentTabExPanel1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                              <Component id="headmasterStudentTabExPanel2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="headmasterStudentTabExPanel1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                              <Component id="headmasterStudentTabExPanel2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="headmasterStudentTabExPanel1">
+                      <Properties>
+                        <Property name="opaque" type="boolean" value="false"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JLayeredPane.layer" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="headmasterStudentTabExBDLabel" linkSize="21" alignment="0" pref="89" max="32767" attributes="0"/>
+                                              <Component id="headmasterStudentTabExFNLabel" linkSize="21" alignment="0" pref="89" max="32767" attributes="0"/>
+                                              <Component id="headmasterStudentTabExPWLabel" linkSize="21" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="headmasterStudentTabExUNLabel" linkSize="21" alignment="0" pref="89" max="32767" attributes="0"/>
+                                              <Component id="headmasterStudentTabExLNLabel" linkSize="21" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="headmasterStudentTabExTFLabel" linkSize="21" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="headmasterStudentTabExLNField" max="32767" attributes="0"/>
+                                              <Component id="headmasterStudentTabExUNField" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="headmasterStudentTabExPWField" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="headmasterStudentTabExTFField" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                              <Component id="headmasterStudentTabExBDField" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="headmasterStudentTabExFNField" min="-2" pref="175" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="headmasterStudentTabExDelete" linkSize="23" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="headmasterStudentTabExUpdate" linkSize="23" alignment="0" pref="72" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="headmasterStudentTabExLabel" pref="288" max="32767" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="headmasterStudentTabExIDLabel" min="-2" pref="92" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="617" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="headmasterStudentTabExUpdate" linkSize="24" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabExLabel" linkSize="25" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="headmasterStudentTabExDelete" linkSize="24" max="32767" attributes="0"/>
+                                      <Component id="headmasterStudentTabExIDLabel" linkSize="25" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="headmasterStudentTabExFNField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="headmasterStudentTabExFNLabel" linkSize="22" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="headmasterStudentTabExLNLabel" linkSize="22" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabExLNField" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterStudentTabExUNLabel" linkSize="22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabExUNField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterStudentTabExPWLabel" linkSize="22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabExPWField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterStudentTabExBDLabel" linkSize="22" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabExBDField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterStudentTabExTFLabel" linkSize="22" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                                      <Component id="headmasterStudentTabExTFField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="187" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JButton" name="headmasterStudentTabExUpdate">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Update"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterStudentTabExUpdateActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="headmasterStudentTabExDelete">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Delete"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterStudentTabExDeleteActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterStudentTabExLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Student id :"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="18" style="0"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterStudentTabExIDLabel">
+                          <Properties>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="18" style="0"/>
+                            </Property>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="ff" type="rgb"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterStudentTabExFNLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="First Name :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="headmasterStudentTabExFNField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterStudentTabExLNLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Last Name :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="headmasterStudentTabExLNField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterStudentTabExUNLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Username :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="headmasterStudentTabExUNField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterStudentTabExPWLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Password :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="headmasterStudentTabExPWField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterStudentTabExBDLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Birth Date :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="com.github.lgooddatepicker.components.DatePicker" name="headmasterStudentTabExBDField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterStudentTabExTFLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tuition Fees :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="headmasterStudentTabExTFField">
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="headmasterStudentTabExPanel2">
+                      <AuxValues>
+                        <AuxValue name="JLayeredPane.layer" type="java.lang.Integer" value="2"/>
+                      </AuxValues>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="741" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="322" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="headmasterAssignmentTab">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Assignments" toolTip="&lt;html&gt;CRUD on assignments&lt;br&gt;List of assignments with edit buttons + new Assignment button&lt;/html&gt;">
+                <Property name="tabTitle" type="java.lang.String" value="Assignments"/>
+                <Property name="tabToolTip" type="java.lang.String" value="&lt;html&gt;CRUD on assignments&lt;br&gt;List of assignments with edit buttons + new Assignment button&lt;/html&gt;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="headmasterAssignmentTabNew" alignment="1" max="32767" attributes="0"/>
+                          <Component id="headmasterAssignmentTabScrollPane" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="headmasterAssignmentTabScrollPane" min="-2" pref="351" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="headmasterAssignmentTabNew" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="headmasterAssignmentTabScrollPane">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="headmasterAssignmentTabScrollNRLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="0"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="No assignments found. Add some"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="headmasterAssignmentTabNew">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="headmasterAssignmentTabNewCILabel" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                              <Component id="headmasterAssignmentTabNewTitleLabel" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="headmasterAssignmentTabNewDescLabel" min="-2" pref="75" max="-2" attributes="0"/>
+                                      <Component id="headmasterAssignmentTabNewSDLabel" min="-2" pref="113" max="-2" attributes="0"/>
+                                      <Component id="headmasterAssignmentTabNewSubmit" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="headmasterAssignmentTabNewTitleField" max="32767" attributes="0"/>
+                                      <Component id="headmasterAssignmentTabNewSDField" min="-2" pref="170" max="-2" attributes="0"/>
+                                      <Component id="headmasterAssignmentTabNewDescScrollPane" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="headmasterAssignmentTabNewCIField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="headmasterAssignmentTabNewLabel" pref="304" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="254" max="32767" attributes="0"/>
+                          <Component id="jSeparator4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          <Component id="headmasterAssignmentTabEx" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jSeparator4" alignment="1" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="headmasterAssignmentTabNewSubmit" min="-2" max="-2" attributes="0"/>
+                              <Component id="headmasterAssignmentTabNewLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="headmasterAssignmentTabNewCILabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="headmasterAssignmentTabNewCIField" linkSize="16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="headmasterAssignmentTabNewTitleLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="headmasterAssignmentTabNewTitleField" linkSize="16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="headmasterAssignmentTabNewSDLabel" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="headmasterAssignmentTabNewSDField" linkSize="16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="headmasterAssignmentTabNewDescLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="headmasterAssignmentTabNewDescScrollPane" min="-2" pref="117" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="168" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="headmasterAssignmentTabEx" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="headmasterAssignmentTabNewLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="New Assignment"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterAssignmentTabNewCILabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Course :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="headmasterAssignmentTabNewCIField">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterAssignmentTabNewTitleLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Titlte :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="headmasterAssignmentTabNewTitleField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterAssignmentTabNewSDLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Submission Date :"/>
+                  </Properties>
+                </Component>
+                <Component class="com.github.lgooddatepicker.components.DatePicker" name="headmasterAssignmentTabNewSDField">
+                </Component>
+                <Component class="javax.swing.JButton" name="headmasterAssignmentTabNewSubmit">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Create"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterAssignmentTabNewSubmitActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="headmasterAssignmentTabNewDescLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Description :"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="headmasterAssignmentTabNewDescScrollPane">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="headmasterAssignmentTabNewDescField">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JSeparator" name="jSeparator4">
+                  <Properties>
+                    <Property name="orientation" type="int" value="1"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JLayeredPane" name="headmasterAssignmentTabEx">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="headmasterAssignmentTabExPanel1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                              <Component id="headmasterAssignmentTabExPanel2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="headmasterAssignmentTabExPanel1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                              <Component id="headmasterAssignmentTabExPanel2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="headmasterAssignmentTabExPanel1">
+                      <AuxValues>
+                        <AuxValue name="JLayeredPane.layer" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="headmasterAssignmentTabExSDLabel" min="-2" pref="115" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                                  <Component id="headmasterAssignmentTabExCIField" max="32767" attributes="0"/>
+                                                  <Component id="headmasterAssignmentTabExTitleField" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Component id="headmasterAssignmentTabExDescScrollPane" min="-2" pref="310" max="-2" attributes="0"/>
+                                              <Component id="headmasterAssignmentTabExSDField" alignment="0" min="-2" pref="177" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="headmasterAssignmentTabExUpdate" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="headmasterAssignmentTabExDelete" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="headmasterAssignmentTabExTitleLabel" linkSize="28" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="headmasterAssignmentTabExDescLabel" linkSize="28" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="headmasterAssignmentTabExCILabel" linkSize="28" alignment="0" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                                  <Component id="headmasterAssignmentTabExLabel" min="-2" pref="153" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                                  <Component id="headmasterAssignmentTabExIDLabel" min="-2" pref="121" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="185" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="headmasterAssignmentTabExUpdate" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="headmasterAssignmentTabExDelete" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="headmasterAssignmentTabExLabel" linkSize="27" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="headmasterAssignmentTabExIDLabel" linkSize="27" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterAssignmentTabExCILabel" linkSize="29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterAssignmentTabExCIField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterAssignmentTabExTitleLabel" linkSize="29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterAssignmentTabExTitleField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="headmasterAssignmentTabExSDLabel" linkSize="29" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="headmasterAssignmentTabExSDField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="headmasterAssignmentTabExDescLabel" linkSize="29" min="-2" max="-2" attributes="0"/>
+                                      <Component id="headmasterAssignmentTabExDescScrollPane" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JButton" name="headmasterAssignmentTabExUpdate">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Update"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterAssignmentTabExUpdateActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="headmasterAssignmentTabExDelete">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Delete"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="headmasterAssignmentTabExDeleteActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterAssignmentTabExLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Assignment id :"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="18" style="0"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterAssignmentTabExIDLabel">
+                          <Properties>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="18" style="0"/>
+                            </Property>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="ff" type="rgb"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterAssignmentTabExCILabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Course :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JComboBox" name="headmasterAssignmentTabExCIField">
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterAssignmentTabExTitleLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Titlte :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="headmasterAssignmentTabExTitleField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterAssignmentTabExSDLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Submission Date :"/>
+                          </Properties>
+                        </Component>
+                        <Component class="com.github.lgooddatepicker.components.DatePicker" name="headmasterAssignmentTabExSDField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="headmasterAssignmentTabExDescLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Description :"/>
+                          </Properties>
+                        </Component>
+                        <Container class="javax.swing.JScrollPane" name="headmasterAssignmentTabExDescScrollPane">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextArea" name="headmasterAssignmentTabExDescField">
+                              <Properties>
+                                <Property name="columns" type="int" value="20"/>
+                                <Property name="rows" type="int" value="5"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="headmasterAssignmentTabExPanel2">
+                      <AuxValues>
+                        <AuxValue name="JLayeredPane.layer" type="java.lang.Integer" value="2"/>
+                      </AuxValues>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="614" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="269" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
